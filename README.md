@@ -1,2 +1,2 @@
 # light-as-possible
- playful palette
+ /playful palette/

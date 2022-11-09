@@ -6,12 +6,235 @@
     
 }
 
-* {
-	background: slategrey;
+@font-face {
+  font-family: compagnon-italic;
+  src: url("fonts/Compagnon-Italic.woff")
+  format("woff")
+    
+}
+
+
+
+body {
+	background: slategray;
 	font-family: compagnon-regular;
 }
 
-h1 {
-	font-family: compagnong-regular;
+button {
+	margin-left: 48%;
+	text-align:  center;
 }
 
+.title {
+	font-family: :compagnon-regular;
+	color: lightgoldenrodyellow;
+	font-size: 30px;
+	text-align: center;
+}
+
+.desc {
+	font-family: compagnon-italic;
+	font-size: 17px;
+	text-align: center;
+	color:  aliceblue;
+	width: 20%;
+	margin:  auto;
+	margin-top: 10px;
+}
+
+.instruct{
+	font-family: compagnon-italic;
+	font-size: 17px;
+	text-align: center;
+	color:  aliceblue;
+	width: 20%;
+	margin:  auto;
+	margin-top: 50px;
+} 
+
+#maincontainer {
+	width: 80%;
+	length:  40;
+	margin: -15% auto;
+}
+
+#container1 {
+	width: 70%;
+	length:  50;
+	display: flex;
+	flex-direction: row;
+	margin:  0 auto;
+	margin-top: 25%;
+	gap: 15px;
+}
+
+#container2 {
+	width: 70%;
+	length:  50;
+	display: flex;
+	margin:  0 auto;
+	gap:  15px;
+	margin-top: 25px;
+}
+
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background: #E1ECE9;
+
+
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background: #D0D2D2;
+}
+
+#box3 {
+  width: 200px;
+  height: 200px;
+  background: #EAE2D8; 
+}
+
+#box3 {
+  width: 200px;
+  height: 200px;
+  background: #DDD7C7;
+  
+}
+
+#box4 {
+  width: 200px;
+  height: 200px;
+  background: #EAE2D8;
+ 
+}
+
+#box5 {
+  width: 200px;
+  height: 200px;
+  background: #FCDAB9;
+ 
+
+}
+
+#box6 {
+  width: 200px;
+  height: 200px;
+  background: #F7E3C4;
+ 
+
+}
+
+#box7 {
+  width: 200px;
+  height: 200px;
+  background: #D1BCA8;
+
+
+}
+
+#box8 {
+  width: 200px;
+  height: 200px;
+  background: #EEE9DA;
+
+
+}
+
+#box9 {
+  width: 200px;
+  height: 200px;
+  background: #C3BBA8;
+ 
+}
+
+#box10 {
+  width: 200px;
+  height: 200px;
+  background: #E6E2D5;
+  
+}
+
+#box1:hover {
+	background-image: url("images/bluemarble.jpeg");
+	max-width: 200px;
+  max-height: auto;
+  background-position: center;
+  object-fit: fill;
+}
+
+#box2:hover {
+	background-image: url("images/peopletable.jpeg");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box3:hover {
+	background-image: url("images/ew.png");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box4:hover {
+	background-image: url("images/table.png");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box5:hover {
+	background-image: url("images/wave.jpeg");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+
+#box6:hover {
+	background-image: url("images/shroom.jpeg");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box7:hover {
+	background-image: url("images/sand.png");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center -500px;
+  object-fit: scale-down;
+}
+
+#box8:hover {
+	background-image: url("images/vroom.png");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box9:hover {
+	background-image: url("images/river.jpeg");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  object-fit: scale-down;
+}
+
+#box10:hover {
+	background-image: url("images/egg.jpeg");
+	max-width: 100%;
+  max-height: auto;
+  background-position: center -200px;
+  object-fit: scale-down;
+}

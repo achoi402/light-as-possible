@@ -3,15 +3,77 @@
 	<head>
 
 	<title>LIGHT AS POSSIBLE</title>
-	<link rel="stylesheet" href="/light.css" />
-	<script src="matter.js"></script>
+	<link rel="stylesheet" href="light.css" />
+	<script type= "text/javascript" src="matter.min.js"></script>
+	<script defer type= "text/javascript" src="script.js"></script>
 
 	</head>
 
 	<body>
 		<div class="title">
-			<h1> LIGHT AS POSSIBLE </h1>
+			light as possible
 		</div>
+		<div class="desc">
+			collection of images and the lightest neutrals derived from them
+		</div>
+
+		<div class="instruct"> hover over boxes! 
+		
+    </div>	
+    <button onclick = "gfg_Run()"> 
+            Click here
+        </button>
+<div id="maincontainer">
+<div id="container1">
+		<div id="box1" class="box">
+		</div>
+		<div id="box2" class="box">
+		</div>
+		<div id="box3" class="box">
+		</div>
+		<div id="box4" class="box">
+		</div>
+		<div id="box5" class="box">
+		</div>
+
+</div>
+
+<div id="container2">
+		<div id="box6" class="box">
+		</div>
+		<div id="box7" class="box">
+		</div>
+		<div id="box8" class="box">
+		</div>
+		<div id="box9" class="box">
+		</div>
+		<div id="box10"class="box">
+		</div>
+</div>
+
+
+
+</div>
+
+	
+
+<script>
+            var el_up = document.getElementById("GFG_UP");
+            var el_down = document.getElementById("GFG_DOWN");
+            var str = "Click on button to change the background color";
+          
+            el_up.innerHTML = str;
+          
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function gfg_Run() {
+                changeColor('lightgray');
+                el_down.innerHTML = "Background Color changed";
+            }         
+        </script> 
+
 	</body>
 
 </html>
