@@ -1,3 +1,17 @@
+
+@font-face {
+  font-family: compagnon-regular;
+  src: url("fonts/Compagnon-Roman.woff")
+  format("woff")
+    
+}
+
 * {
 	background: slategrey;
+	font-family: compagnon-regular;
 }
+
+h1 {
+	font-family: compagnong-regular;
+}
+
