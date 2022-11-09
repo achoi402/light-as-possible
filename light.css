@@ -21,8 +21,11 @@ body {
 }
 
 button {
-	margin-left: 48%;
+	margin-left: 45.5%;
+	margin-top: 5px;
 	text-align:  center;
+
+	font-family: compagnon-regular;
 }
 
 .title {
@@ -75,6 +78,10 @@ button {
 	margin:  0 auto;
 	gap:  15px;
 	margin-top: 25px;
+}
+
+.box {
+	font-size: 10px;
 }
 
 
